@@ -4,6 +4,3 @@
 [submodule "style"]
 	path = style
 	url = git@github.com:Ideabile/monera-style.git
-[submodule "content"]
-	path = content
-	url = git@github.com:sicilia-io/sicilia-io-content.git
