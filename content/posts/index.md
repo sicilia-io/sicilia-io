@@ -2,6 +2,8 @@
 layout: default.html
 ---
 
-## Sicilia.io
+<img src="/assets/images/logo.svg" class="logo" />
 
-... Coming Soon ...
+<div class="small-menu">
+  <a href="idea/">Idea</a>
+</div>
