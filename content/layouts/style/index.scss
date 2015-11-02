@@ -29,7 +29,11 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #fff;
+  background: repeating-linear-gradient(
+    45deg,
+    yellow -100%,
+    hsla(0, 100%, 50%, 0.38) 100%
+  );
 }
 .logo{
   width: 200px;
