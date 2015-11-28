@@ -5,17 +5,9 @@ www:
   volumes:
     - ./www/:/usr/share/nginx/html
 
-generator:
-  build: .
-  dockerfile: ./generator/Dockerfile
-  environment:
-    - TASK
-    - WWW=/usr/share/nginx/html/
-  ports:
-    - 3000:3000
+static-transformer:
+  image: ideabile/monera-static-transformer
   volumes:
-    - ./generator/src:/src
-    - ./style:/style
     - ./content:/content
-  volumes_from:
-    - www
+    - ./www:/dest
+  restart: false
