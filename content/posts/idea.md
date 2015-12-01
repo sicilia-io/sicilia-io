@@ -1,7 +1,9 @@
 ---
 layout: default.html
 container: justify
+published: true
 ---
+
 ## L'idea
 Sicilia.io nasce con l'intento di sviluppare e promuovere il turismo.
 Dietro al progetto c'é gente che crede che il turismo in sicilia abbia molte piú,
@@ -28,4 +30,4 @@ Cercando di costriure un punto di riferimento online per il visitatore del futur
 Uno strumento che riesca ad aiutare e capire le esigenze del turista;
 che possa essere uno strumento utile al miglioramento dei servizi;
 
-Al coltempo uno strumento di promozione delle attivitá locali: eventi, siti, informazioni, ricette, cultura, strutture ricettive o bar, pub, ristoranti, etc...
+Al contempo uno strumento di promozione delle attivitá locali: eventi, siti, informazioni, ricette, cultura, strutture ricettive o bar, pub, ristoranti, etc...
